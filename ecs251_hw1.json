@@ -1,0 +1,21 @@
+[
+    {
+        "name": "GetDistance",
+        "params": {
+            "action": "remote_call",
+            "owner_vsID": "1234567890",
+            "host_url": "1234567890",
+	    "class_id": "transaction",
+	    "object_id": "0000000001",
+	    "arguments": "jsonstr"
+        },
+        "returns": {
+            "action": "call",
+            "owner_vsID": "1234567890",
+            "host_url": "1234567890",
+	    "class_id": "transaction",
+	    "object_id": "0000000001",
+	    "response": "jsonstr"
+        }
+    }
+]

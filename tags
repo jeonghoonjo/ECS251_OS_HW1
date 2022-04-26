@@ -1,0 +1,143 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-cpp-server	Makefile	/^	jsonrpcstub ecs251_hw1_all4.json --cpp-server=hw1Server --cpp-client=hw1Client$/;"	m
+AC	Makefile	/^AC = g++ -std=c++98$/;"	m
+ATTR	._Core.cpp	/^/;"	v
+ATTR	._Core.h	/^/;"	v
+ATTR	._Person.cpp	/^/;"	v
+ATTR	._Person.h	/^/;"	v
+ATTR	._Shadow_Flight.h	/^/;"	v
+ATTR	._Transaction.cpp	/^/;"	v
+ATTR	._Transaction.h	/^/;"	v
+Airline	Transaction.h	/^class Airline$/;"	c
+CC	Makefile	/^CC = g++ -std=c++17$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -I\/usr\/include\/jsoncpp$/;"	m
+CORE_INCS	Makefile	/^CORE_INCS =	Core.h Transaction.h Person.h$/;"	m
+CORE_OBJS	Makefile	/^CORE_OBJS =	Core.o Transaction.o Person.o$/;"	m
+Conflict_of_Interest	Shadow_Flight.cpp	/^Shadow_Flight::Conflict_of_Interest()$/;"	f	class:Shadow_Flight
+Conflict_of_Interest	Transaction.cpp	/^Flight::Conflict_of_Interest()$/;"	f	class:Flight
+Conflict_of_Interest	hw1another.cpp	/^Myhw1Server::Conflict_of_Interest$/;"	f	class:Myhw1Server
+Conflict_of_Interest	hw1client.h	/^        Json::Value Conflict_of_Interest(const std::string& action, const std::string& arguments, const std::string& class_id, const std::string& host_url, const std::string& object_id, const std::string& owner_vsID) throw (jsonrpc::JsonRpcException)$/;"	f	class:hw1Client
+Conflict_of_Interest	hw1server.cpp	/^Myhw1Server::Conflict_of_Interest$/;"	f	class:Myhw1Server
+Conflict_of_InterestI	hw1server.h	/^        inline virtual void Conflict_of_InterestI(const Json::Value &request, Json::Value &response)$/;"	f	class:hw1Server
+Core	Core.cpp	/^Core::Core(std::string arg_host_url, std::string arg_vsID, std::string arg_class_id, std::string arg_object_id)$/;"	f	class:Core
+Core	Core.cpp	/^Core::Core(void)$/;"	f	class:Core
+Core	Core.h	/^class Core$/;"	c
+Flight	Transaction.cpp	/^Flight::Flight$/;"	f	class:Flight
+Flight	Transaction.cpp	/^Flight::Flight(std::string core_arg_host_url, std::string core_arg_owner_vsID,$/;"	f	class:Flight
+Flight	Transaction.h	/^class Flight: public Transaction$/;"	c
+GPS_DD	Person.cpp	/^GPS_DD::GPS_DD()$/;"	f	class:GPS_DD
+GPS_DD	Person.cpp	/^GPS_DD::GPS_DD(double arg_latitude, double arg_longtitude)$/;"	f	class:GPS_DD
+GPS_DD	Person.h	/^class GPS_DD$/;"	c
+GeoDataSource_distance	Person.cpp	/^double GeoDataSource_distance(double lat1, double lon1, double lat2, double lon2, char unit) $/;"	f
+GetDistance	hw1another.cpp	/^Myhw1Server::GetDistance$/;"	f	class:Myhw1Server
+GetDistance	hw1client.h	/^        Json::Value GetDistance(const std::string& action, const std::string& arguments, const std::string& class_id, const std::string& host_url, const std::string& object_id, const std::string& owner_vsID) throw (jsonrpc::JsonRpcException)$/;"	f	class:hw1Client
+GetDistance	hw1server.cpp	/^Myhw1Server::GetDistance$/;"	f	class:Myhw1Server
+GetDistanceI	hw1server.h	/^        inline virtual void GetDistanceI(const Json::Value &request, Json::Value &response)$/;"	f	class:hw1Server
+GetVsID	hw1another.cpp	/^Myhw1Server::GetVsID$/;"	f	class:Myhw1Server
+GetVsID	hw1client.h	/^        Json::Value GetVsID(const std::string& action, const std::string& arguments, const std::string& class_id, const std::string& host_url, const std::string& object_id, const std::string& owner_vsID) throw (jsonrpc::JsonRpcException)$/;"	f	class:hw1Client
+GetVsID	hw1server.cpp	/^Myhw1Server::GetVsID$/;"	f	class:Myhw1Server
+GetVsIDI	hw1server.h	/^        inline virtual void GetVsIDI(const Json::Value &request, Json::Value &response)$/;"	f	class:hw1Server
+IP_Address	Person.cpp	/^IP_Address::IP_Address$/;"	f	class:IP_Address
+IP_Address	Person.cpp	/^IP_Address::IP_Address()$/;"	f	class:IP_Address
+IP_Address	Person.h	/^class IP_Address$/;"	c
+JSONRPC_CPP_STUB_HW1CLIENT_H_	hw1client.h	6;"	d
+JSONRPC_CPP_STUB_HW1SERVER_H_	hw1server.h	6;"	d
+LDFLAGS_CL	Makefile	/^LDFLAGS_CL = -ljsoncpp -lcurl -ljsonrpccpp-common -ljsonrpccpp-client$/;"	m
+LDFLAGS_SV	Makefile	/^LDFLAGS_SV = -ljsoncpp -lmicrohttpd -ljsonrpccpp-common -ljsonrpccpp-server$/;"	m
+Myhw1Server	hw1another.cpp	/^Myhw1Server::Myhw1Server(AbstractServerConnector &connector, serverVersion_t type)$/;"	f	class:Myhw1Server
+Myhw1Server	hw1another.cpp	/^class Myhw1Server : public hw1Server$/;"	c	file:
+Myhw1Server	hw1server.cpp	/^Myhw1Server::Myhw1Server(AbstractServerConnector &connector, serverVersion_t type)$/;"	f	class:Myhw1Server
+Myhw1Server	hw1server.cpp	/^class Myhw1Server : public hw1Server$/;"	c	file:
+Myhw3Server	hw3another.cpp	/^Myhw3Server::Myhw3Server(AbstractServerConnector &connector, serverVersion_t type)$/;"	f	class:Myhw3Server
+Myhw3Server	hw3another.cpp	/^class Myhw3Server : public hw3Server$/;"	c	file:
+OperatorEqEq	hw1another.cpp	/^Json::Value Myhw1Server::OperatorEqEq($/;"	f	class:Myhw1Server
+OperatorEqEq	hw1client.h	/^        Json::Value OperatorEqEq(const std::string& aPerson_class_id, const std::string& aPerson_host_url, const std::string& aPerson_object_id, const std::string& aPerson_owner_vsID, const std::string& action, const std::string& arguments, const std::string& class_id, const std::string& host_url, const std::string& object_id, const std::string& owner_vsID) throw (jsonrpc::JsonRpcException)$/;"	f	class:hw1Client
+OperatorEqEq	hw1server.cpp	/^Json::Value Myhw1Server::OperatorEqEq($/;"	f	class:Myhw1Server
+OperatorEqEqI	hw1server.h	/^        inline virtual void OperatorEqEqI(const Json::Value &request, Json::Value &response)$/;"	f	class:hw1Server
+Person	Person.cpp	/^Person::Person$/;"	f	class:Person
+Person	Person.cpp	/^Person::Person()$/;"	f	class:Person
+Person	Person.h	/^class Person : public Core$/;"	c
+Shadow_Flight	Shadow_Flight.cpp	/^Shadow_Flight::Shadow_Flight$/;"	f	class:Shadow_Flight
+Shadow_Flight	Shadow_Flight.h	/^class Shadow_Flight: public Flight$/;"	c
+Shadow_Person	Shadow_Person.cpp	/^Shadow_Person::Shadow_Person$/;"	f	class:Shadow_Person
+Shadow_Person	Shadow_Person.h	/^class Shadow_Person: public Person$/;"	c
+TR_TYPE_FLIGHT	Transaction.h	11;"	d
+Transaction	Transaction.cpp	/^Transaction::Transaction(std::string core_arg_host_url, std::string core_arg_owner_vsID,$/;"	f	class:Transaction
+Transaction	Transaction.cpp	/^Transaction::Transaction(unsigned int arg_type) $/;"	f	class:Transaction
+Transaction	Transaction.h	/^class Transaction : public Core$/;"	c
+_CORE_H_	Core.h	3;"	d
+_PERSON_H_	Person.h	3;"	d
+_SHADOW_FLIGHT_H_	Shadow_Flight.h	3;"	d
+_SHADOW_PERSON_H_	Shadow_Person.h	3;"	d
+_TRANSACTION_H_	Transaction.h	3;"	d
+addr	Person.h	/^  unsigned int addr;$/;"	m	class:IP_Address
+class_id	Core.h	/^  std::string class_id;$/;"	m	class:Core
+core_count	Core.h	/^  static unsigned int core_count;$/;"	m	class:Core
+deg2rad	Person.cpp	/^double deg2rad(double deg)$/;"	f
+distance	Person.cpp	/^GPS_DD::distance$/;"	f	class:GPS_DD
+ecs36b_hw3	hw3another.cpp	/^Myhw3Server::ecs36b_hw3$/;"	f	class:Myhw3Server
+f2	hw1server.cpp	/^Flight *f2;$/;"	v
+f3	hw1another.cpp	/^Flight *f3;$/;"	v
+f3	hw1server.cpp	/^Flight *f3;$/;"	v
+f3	hw3another.cpp	/^Flight *f3;$/;"	v
+fl_airline	Transaction.h	/^  Airline fl_airline;$/;"	m	class:Flight
+fl_arrival	Transaction.h	/^  GPS_DD& fl_arrival;$/;"	m	class:Flight
+fl_count	Transaction.h	/^  static unsigned int fl_count;$/;"	m	class:Flight
+fl_departure	Transaction.h	/^  GPS_DD& fl_departure;$/;"	m	class:Flight
+fl_passenger	Transaction.h	/^  Person fl_passenger;$/;"	m	class:Flight
+fl_ticket_number	Transaction.h	/^  std::string fl_ticket_number;$/;"	m	class:Flight
+getData	Transaction.cpp	/^Transaction::getData(void)$/;"	f	class:Transaction
+getDescription	Transaction.cpp	/^Transaction::getDescription()$/;"	f	class:Transaction
+getDescription	Transaction.h	/^  virtual std::string getDescription() { return "Flying"; }$/;"	f	class:Flight
+getDistance	Shadow_Flight.cpp	/^Shadow_Flight::getDistance()$/;"	f	class:Shadow_Flight
+getDistance	Transaction.cpp	/^Flight::getDistance()$/;"	f	class:Flight
+getIPaddressString	Person.cpp	/^IP_Address::getIPaddressString()$/;"	f	class:IP_Address
+getIPaddressValue	Person.cpp	/^IP_Address::getIPaddressValue()$/;"	f	class:IP_Address
+getLatitude	Person.cpp	/^GPS_DD::getLatitude()$/;"	f	class:GPS_DD
+getLongtitude	Person.cpp	/^GPS_DD::getLongtitude$/;"	f	class:GPS_DD
+getName	Person.cpp	/^Person::getName()$/;"	f	class:Person
+getVsID	Person.cpp	/^Person::getVsID()$/;"	f	class:Person
+getVsID	Shadow_Person.cpp	/^Shadow_Person::getVsID()$/;"	f	class:Shadow_Person
+home	Person.h	/^  GPS_DD home;$/;"	m	class:Person
+hometown	Person.h	/^  std::string hometown;$/;"	m	class:Person
+host_url	Core.h	/^  std::string host_url;$/;"	m	class:Core
+hw1Client	hw1client.h	/^        hw1Client(jsonrpc::IClientConnector &conn, jsonrpc::clientVersion_t type = jsonrpc::JSONRPC_CLIENT_V2) : jsonrpc::Client(conn, type) {}$/;"	f	class:hw1Client
+hw1Client	hw1client.h	/^class hw1Client : public jsonrpc::Client$/;"	c
+hw1Server	hw1server.h	/^        hw1Server(jsonrpc::AbstractServerConnector &conn, jsonrpc::serverVersion_t type = jsonrpc::JSONRPC_SERVER_V2) : jsonrpc::AbstractServer<hw1Server>(conn, type)$/;"	f	class:hw1Server
+hw1Server	hw1server.h	/^class hw1Server : public jsonrpc::AbstractServer<hw1Server>$/;"	c
+latitude	Person.h	/^  double latitude;$/;"	m	class:GPS_DD
+longtitude	Person.h	/^  double longtitude;$/;"	m	class:GPS_DD
+main	hw1another.cpp	/^int main() {$/;"	f
+main	hw1client.cpp	/^main()$/;"	f
+main	hw1server.cpp	/^int main() {$/;"	f
+main	hw3another.cpp	/^int main() {$/;"	f
+name	Person.h	/^  std::string name;$/;"	m	class:Person
+object_id	Core.h	/^  std::string object_id;$/;"	m	class:Core
+operator ==	Person.cpp	/^Person::operator==$/;"	f	class:Person
+operator ==	Shadow_Person.cpp	/^bool Shadow_Person :: operator==(Shadow_Person& aPerson) {$/;"	f	class:Shadow_Person
+owner_vsID	Core.h	/^  std::string owner_vsID;$/;"	m	class:Core
+person_count	Person.h	/^  static unsigned int person_count;$/;"	m	class:Person
+pi	Person.cpp	57;"	d	file:
+pp2	hw1server.cpp	/^Person *pp2;$/;"	v
+pp3	hw1another.cpp	/^Person *pp3, *ppx;$/;"	v
+pp3	hw1server.cpp	/^Person *pp3;$/;"	v
+pp_test	hw1server.cpp	/^Shadow_Person *pp_test;$/;"	v
+ppx	hw1another.cpp	/^Person *pp3, *ppx;$/;"	v
+rad2deg	Person.cpp	/^double rad2deg(double rad)$/;"	f
+setData	Transaction.cpp	/^Transaction::setData(void *arg_data)$/;"	f	class:Transaction
+setHome	Person.cpp	/^Person::setHome$/;"	f	class:Person
+tr_agent	Transaction.h	/^  Person tr_agent;$/;"	m	class:Transaction
+tr_data	Transaction.h	/^  void *tr_data;$/;"	m	class:Transaction
+tr_description	Transaction.h	/^  std::string tr_description;$/;"	m	class:Transaction
+tr_srcIP	Transaction.h	/^  IP_Address tr_srcIP;$/;"	m	class:Transaction
+tr_status	Transaction.h	/^  unsigned int tr_status;$/;"	m	class:Transaction
+tr_type	Transaction.h	/^  unsigned int tr_type;$/;"	m	class:Transaction
+tr_when	Transaction.h	/^  time_t tr_when;$/;"	m	class:Transaction
+tr_where	Transaction.h	/^  GPS_DD tr_where;$/;"	m	class:Transaction
+transaction_count	Transaction.h	/^  static unsigned int transaction_count;$/;"	m	class:Transaction
+vsID	Person.h	/^  std::string vsID;$/;"	m	class:Person
