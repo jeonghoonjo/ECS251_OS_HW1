@@ -1,3 +1,3 @@
 # ECS251_OS_HW1
 
-We implemented the scenario of proxy objects in a distributed system using JSON RPC package for the first homework in ECS251 Operating Systems at UC Davis. 
+Implemented the scenario of proxy objects in a distributed system using JSON RPC package for the first homework in ECS251 Operating Systems at UC Davis. 
